@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 360px;
+  height: 640px;
+  background-color: #f29f05;
+}
+
+header {
+  background-color: #f29f05;
+}
+main {
+  width: 360px;
+  height: 540px;
+
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+/* HEADER */
+.header {
+  display: flex;
+  flex-direction: row;
+   
+}
+.header__botonatras {
+  display: flex;
+  margin: 15px;
+  align-items: flex-start;
+  
+}
+.header__titulo {display:flex;
+     text-align: center;
+  color: white;
+
+
+}
+
+h2 {
+    margin-left: 20px;
+}
+/* MAIN */
+.main__flex-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.main__flex-container__izquierda {
+  display: flex;
+  align-items: center;
+}
+
+.main__flex-container__derecha {
+  margin-left: 13px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+p {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 10px;
+  height: 76px;
+  width: 320px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ICONO */
+.main__iconocasaytexto {
+  display: flex;
+  margin-left: 20px;
+}
+h4 {
+  margin-left: 60px;
+  color: #f29f05;
+}
+/* BOTON SIGUIENTE */
+.main__boton {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #f29f05;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
